@@ -59,7 +59,44 @@ Learn deployment and automation using:
 
 ### 💼 Real-World Case Studies  
 End-to-end implementations inspired by:  
-**Uber** & **Netflix** architectures.
+**Uber** & **Netflix** architectures
+
+### 📂 Collapsible Learning Sections
+<details>
+<summary>🐍 Python Module</summary>
+
+    - Week 1: Variables, Data Types, Loops  
+    
+    - Week 2: Functions & Modules  
+    
+    - Week 3: File Operations, Error Handling  
+    
+    - Week 4: OOP Concepts  
+    
+    - Module Project  
+</details>
+
+<details>
+<summary>🗄️ Database Module</summary>
+  
+    - Week 1: SQL Basics  
+
+    - Week 2: Joins & Subqueries  
+
+    - Week 3: Advanced SQL & Indexing  
+</details>
+
+<details>
+<summary>☁️ Cloud Module</summary>
+
+    - Week 1: Cloud Fundamentals  
+    
+    - Week 2: Azure & AWS Basics
+  
+    - Week 3: Cloud Projects  
+</details>
+
+
 
 ---
 
@@ -92,54 +129,3 @@ data-engineering-journey/
     ├── week_1/
     ├── week_2/
     └── week_3/
-## 🧱 Repository Structure
----
-
-## 🏅 GitHub Profile Badges  
-
-![Python](https://img.shields.io/badge/Python-Expert-blue?logo=python)
-![SQL](https://img.shields.io/badge/SQL-Intermediate-green?logo=postgresql)
-![Azure](https://img.shields.io/badge/Azure-Fundamentals-0078D4?logo=microsoftazure)
-![Data Engineering](https://img.shields.io/badge/Data%20Engineering-In%20Progress-orange?logo=apacheairflow)
-
----
-
-## 📊 GitHub Statistics  
-
-Here’s an overview of your GitHub activity:  
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pinhanderler&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pinhanderler&layout=compact&theme=tokyonight)
-
----
-
-## 📂 Collapsible Learning Sections  
-
-<details>
-<summary>🐍 Python Module</summary>
-
-- Week 1 – Variables, Data Types, Loops  
-- Week 2 – Functions & Modules  
-- Week 3 – File Operations, Error Handling  
-- Week 4 – OOP Concepts  
-- Module Project  
-
-</details>
-
-<details>
-<summary>🗄️ Database Module</summary>
-
-- Week 1 – SQL Basics  
-- Week 2 – Joins & Subqueries  
-- Week 3 – Advanced SQL & Indexing  
-
-</details>
-
-<details>
-<summary>☁️ Cloud Module</summary>
-
-- Week 1 – Cloud Fundamentals  
-- Week 2 – Azure & AWS Basics  
-- Week 3 – Cloud Projects  
-
-</details>
