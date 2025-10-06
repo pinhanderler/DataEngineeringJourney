@@ -65,8 +65,8 @@ End-to-end implementations inspired by:
 
 ## 🧱 Repository Structure  
 
-```bash
-📦 data-engineering-journey/
+```text
+data-engineering-journey/
 ├── python/
 │   ├── week_1/
 │   │   ├── 1_variables.py
@@ -92,12 +92,10 @@ End-to-end implementations inspired by:
     ├── week_1/
     ├── week_2/
     └── week_3/
-
+## 🧱 Repository Structure
 ---
 
 ## 🏅 GitHub Profile Badges  
-
-Show off your progress and skills with these cool badges!  
 
 ![Python](https://img.shields.io/badge/Python-Expert-blue?logo=python)
 ![SQL](https://img.shields.io/badge/SQL-Intermediate-green?logo=postgresql)
