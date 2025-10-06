@@ -7,14 +7,6 @@ You’ll gain both **theoretical knowledge** and **hands-on experience** through
 
 ---
 
-## 💡 Goals
-- Build job-ready data pipelines and analytical dashboards
-- Understand end-to-end data architecture in the cloud
-- Prepare for certifications like AZ-900, DP-900, DP-700, and PL-300
-- Develop real-world projects for your data engineering portfolio
-
----
-
 ## 🎯 What You’ll Learn  
 
 ### 🐍 Python  
@@ -63,11 +55,28 @@ End-to-end implementations inspired by:
 
 ```bash
 📦 data-engineering-journey/
-├── python/                # Python basics, scripting, and data manipulation
-├── sql/                   # SQL exercises and database design
-├── etl/                   # ETL pipelines with Airflow, DBT, and Spark
-├── bigdata/               # Hadoop & Spark-based processing
-├── streaming/             # Kafka & real-time analytics
-├── analytics/             # Power BI dashboards & DAX examples
-├── cloud/                 # Azure, AWS, GCP projects
-└── devops/                # Docker & CI/CD with GitHub Actions
+├── python/
+│   ├── week_1/
+│   │   ├── 1_variables.py
+│   │   ├── 2_data_types.py
+│   │   ├── 3_print_input.py
+│   │   ├── 4_operators.py
+│   │   ├── 5_string.py
+│   │   ├── 6_conditionals.py
+│   │   ├── 7_loops.py
+│   │   ├── 8_lists.py
+│   │   ├── 9_tuples.py
+│   │   ├── 10_sets.py
+│   │   └── 11_dictionaries.py
+│   ├── week_2/
+│   ├── week_3/
+│   ├── week_4/
+│   └── module_project/
+├── database/
+│   ├── week_1/
+│   ├── week_2/
+│   └── week_3/
+└── cloud/
+    ├── week_1/
+    ├── week_2/
+    └── week_3/
