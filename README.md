@@ -92,3 +92,58 @@ End-to-end implementations inspired by:
     ├── week_1/
     ├── week_2/
     └── week_3/
+
+---
+
+## 🏅 GitHub Profile Badges  
+
+Show off your progress and skills with these cool badges!  
+
+![Python](https://img.shields.io/badge/Python-Expert-blue?logo=python)
+![SQL](https://img.shields.io/badge/SQL-Intermediate-green?logo=postgresql)
+![Azure](https://img.shields.io/badge/Azure-Fundamentals-0078D4?logo=microsoftazure)
+![Data Engineering](https://img.shields.io/badge/Data%20Engineering-In%20Progress-orange?logo=apacheairflow)
+
+---
+
+## 📊 GitHub Statistics  
+
+Here’s an overview of your GitHub activity:  
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight)
+
+> 🧠 Replace `pinhanderler` with your actual GitHub username!
+
+---
+
+## 📂 Collapsible Learning Sections  
+
+<details>
+<summary>🐍 Python Module</summary>
+
+- [Week 1 – Variables, Data Types, Loops](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/python-modulu/1.hafta)  
+- [Week 2 – Functions & Modules](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/python-modulu/2.hafta)  
+- [Week 3 – File Operations, Error Handling](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/python-modulu/3.hafta)  
+- [Week 4 – OOP Concepts](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/python-modulu/4.hafta)  
+- [Module Project](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/python-modulu/modul-project)
+
+</details>
+
+<details>
+<summary>🗄️ Database Module</summary>
+
+- [Week 1 – SQL Basics](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/database-modulu/1.hafta)  
+- [Week 2 – Joins & Subqueries](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/database-modulu/2.hafta)  
+- [Week 3 – Advanced SQL & Indexing](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/database-modulu/3.hafta)
+
+</details>
+
+<details>
+<summary>☁️ Cloud Module</summary>
+
+- [Week 1 – Cloud Fundamentals](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/cloud-modulu/1.hafta)  
+- [Week 2 – Azure & AWS Basics](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/cloud-modulu/2.hafta)  
+- [Week 3 – Cloud Projects](https://werhere-it-academy.gitbook.io/werhere-it-academy-handbook/cloud-modulu/3.hafta)
+
+</details>
