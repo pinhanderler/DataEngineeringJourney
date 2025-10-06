@@ -7,6 +7,18 @@ You’ll gain both **theoretical knowledge** and **hands-on experience** through
 
 ---
 
+## 🏅 Badges  
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-blue?logo=postgresql&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-Cloud-blue?logo=microsoft-azure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker&logoColor=white)
+![PowerBI](https://img.shields.io/badge/PowerBI-Analytics-yellow?logo=power-bi&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)
+
+---
+
 ## 🎯 What You’ll Learn  
 
 ### 🐍 Python  
