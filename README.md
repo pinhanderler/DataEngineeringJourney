@@ -105,22 +105,34 @@ End-to-end implementations inspired by:
 ```text
 data-engineering-journey/
 ├── python/
-│   ├── week_1/
-│   │   ├── 1_variables.py
-│   │   ├── 2_data_types.py
-│   │   ├── 3_print_input.py
-│   │   ├── 4_operators.py
-│   │   ├── 5_string.py
-│   │   ├── 6_conditionals.py
-│   │   ├── 7_loops.py
-│   │   ├── 8_lists.py
-│   │   ├── 9_tuples.py
-│   │   ├── 10_sets.py
-│   │   └── 11_dictionaries.py
-│   ├── week_2/
-│   ├── week_3/
-│   ├── week_4/
-│   └── module_project/
+data-engineering-journey/
+└── python/
+    ├── week_1/
+    │   ├── 1_variables.py
+    │   ├── 2_data_types.py
+    │   ├── 3_print_input.py
+    │   ├── 4_operators.py
+    │   ├── 5_string.py
+    │   ├── 6_conditionals.py
+    │   ├── 7_loops.py
+    │   ├── 8_lists.py
+    │   ├── 9_tuples.py
+    │   ├── 10_sets.py
+    │   └── 11_dictionaries.py
+    ├── week_2/
+    │   ├── 1_functions.py
+    │   ├── 2_modules.py
+    │   └── 3_packages.py
+    ├── week_3/
+    │   ├── 1_file_operations.py
+    │   ├── 2_exceptions.py
+    │   └── 3_error_handling.py
+    ├── week_4/
+    │   ├── 1_classes_objects.py
+    │   ├── 2_inheritance.py
+    │   └── 3_polymorphism.py
+    └── module_project/
+        └── project_main.py
 ├── database/
 │   ├── week_1/
 │   ├── week_2/
