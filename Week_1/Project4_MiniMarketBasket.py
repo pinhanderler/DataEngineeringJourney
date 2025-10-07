@@ -13,7 +13,7 @@ for i in range(3):
         basket.append(item)
         total += products[item]
     else:
-        print(f"⚠️ '{item}' not found in market.")
+        print(f" '{item}' not found in market.")
 
 print("\nYour basket:", ", ".join(basket))
 print("Total price:", total, "TL")
