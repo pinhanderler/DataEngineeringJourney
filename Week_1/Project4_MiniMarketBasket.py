@@ -1,19 +1,20 @@
-# Project 4: Mini Market Basket 
+print("Mini Market Basket (Type 'exit' to finish)\n")
 
 products = {"apple": 3, "banana": 5, "bread": 2, "milk": 4}
-
-print("Available products:", list(products.keys()))
 
 basket = []
 total = 0
 
-for i in range(3):
-    item = input(f"Enter product {i+1}: ").lower()
-    if item in products:
+while True:
+    item = input("Add product: ").lower()
+    if item == "exit":
+        break
+    elif item in products:
         basket.append(item)
         total += products[item]
+        print(f" {item} added ({products[item]} TL)")
     else:
-        print(f" '{item}' not found in market.")
+        print(f" '{item}' not found in the market!")
 
-print("\nYour basket:", ", ".join(basket))
-print("Total price:", total, "TL")
+print("\n Your basket:", ", ".join(basket))
+print(f"Total price: {total} TL")
