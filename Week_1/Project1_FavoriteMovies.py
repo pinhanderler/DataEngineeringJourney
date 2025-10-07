@@ -13,3 +13,4 @@ print("First movie:", movies[0])
 print("Last movie:", movies[-1])
 print("Number of movies:", len(movies))
 
+#  Hint: Use len(), list[index].
