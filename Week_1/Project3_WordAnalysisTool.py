@@ -1,18 +1,30 @@
-# Project 3: Word Analysis Tool 
+from collections import Counter
+import string
 
-sentence = input("Enter a sentence: ")
+print("Advanced Word Analysis Tool")
 
-words = sentence.split()
+sentence = input("Enter a sentence: ").strip()
+
+# Clean and normalize
+for p in string.punctuation:
+    sentence = sentence.replace(p, "")
+words = sentence.lower().split()
+
+# Analyses
 char_count = len(sentence.replace(" ", ""))
 word_count = len(words)
 unique_words = set(words)
+longest_word = max(words, key=len)
+word_frequency = Counter(words)
+most_common_word, freq = word_frequency.most_common(1)[0]
 
-longest_word = ""
-for word in words:
-    if len(word) > len(longest_word):
-        longest_word = word
-
-print("\nCharacter count (no spaces):", char_count)
-print("Word count:", word_count)
-print("Unique words:", unique_words)
-print("Longest word:", longest_word)
+# Output
+print("\n--- Text Summary ---")
+print(f"Total characters (no spaces): {char_count}")
+print(f"Total words: {word_count}")
+print(f"Unique words: {len(unique_words)} → {sorted(unique_words)}")
+print(f"Longest word: '{longest_word}'")
+print(f"Most frequent word: '{most_common_word}' ({freq} times)")
+print("\nWords sorted by length:")
+for w in sorted(unique_words, key=len):
+    print(f"  {w} ({len(w)} letters)")
