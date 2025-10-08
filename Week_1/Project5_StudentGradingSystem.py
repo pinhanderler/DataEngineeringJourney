@@ -1,6 +1,11 @@
 # Project 5: Student Grading System 
 
-students = {}
+students = {
+    "Ali": [80, 90, 70],
+    "Ayşe": [85, 75, 95],
+    "Mehmet": [60, 70, 65]
+}
+
 
 for i in range(3):
     name = input(f"Enter student {i+1} name: ")
