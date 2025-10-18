@@ -3,7 +3,7 @@
 Welcome to the **Data Engineering Journey** repository!  
 This repo is designed to take you from **Python and SQL fundamentals** to building **scalable data pipelines, real-time streaming systems, and cloud-based analytics platforms**.  
 
-You’ll gain both **theoretical knowledge** and **hands-on experience** through practical, real-world projects inspired by **Uber** and **Netflix**.
+It provides both **theoretical knowledge** and **hands-on experience** through practical, real-world projects inspired by **Uber** and **Netflix**.
 
 ---
 
@@ -22,7 +22,7 @@ You’ll gain both **theoretical knowledge** and **hands-on experience** through
 ## 🎯 What You’ll Learn  
 
 ### 🐍 Python  
-Learn the foundations of Python for automation, ETL scripting, and data transformation.  
+Foundations of Python for automation, ETL scripting, and data transformation.
 
 ### ☁️ Cloud & Fundamentals  
 - **Azure Fundamentals (AZ-900)**  
@@ -30,7 +30,7 @@ Learn the foundations of Python for automation, ETL scripting, and data transfor
 - **Microsoft Fabric & OneLake (DP-700)** – Modern data architecture concepts  
 
 ### 🗄️ Databases & SQL  
-Master relational and non-relational databases:  
+Relational and non-relational databases:  
 **PostgreSQL**, **MySQL**, **Snowflake**, **BigQuery**, **Redshift**, **MongoDB**  
 
 ### ⚙️ ETL & Data Pipelines  
@@ -38,7 +38,7 @@ Build and orchestrate data workflows using:
 **Airflow**, **DBT**, **Spark**, **PySpark**
 
 ### 🧩 Big Data & Distributed Systems  
-Learn to work with large-scale data frameworks:  
+Work with large-scale data frameworks: 
 **Hadoop**, **Spark**, **HDFS**, **S3**
 
 ### ⚡ Real-Time Data  
@@ -54,14 +54,13 @@ Visualize insights using:
 **Power BI**, **DAX**, **KQL (PL-300)**  
 
 ### 🧠 DevOps & Cloud Tools  
-Learn deployment and automation using:  
+Deployment and automation using:  
 **Docker**, **GitHub Actions**, **Azure**, **AWS**, **GCP**
 
 ### 💼 Real-World Case Studies  
-End-to-end implementations inspired by:  
-**Uber** & **Netflix** architectures
+End-to-end implementations inspired by **Uber** and **Netflix** architectures
 
-### 📂 Collapsible Learning Sections
+### 📂  Repository Structure
 <details>
 <summary>🐍 Python Module</summary>
 
