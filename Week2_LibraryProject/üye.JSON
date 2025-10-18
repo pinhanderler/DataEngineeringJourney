@@ -1,0 +1,16 @@
+[
+    {
+        "Uye_ID": "1",
+        "Ad_Soyad": "gamze",
+        "Adres": "veldhoven",
+        "Telefon": "12345",
+        "Kayit_Tarihi": "18-10-2025 18:51",
+        "Odunc_Kitaplar": [
+            {
+                "Kitap_Adi": "fareler ve insanlar",
+                "Alis_Tarihi": "2025-10-18",
+                "Teslim_Tarihi": "1-1-1111"
+            }
+        ]
+    }
+]
