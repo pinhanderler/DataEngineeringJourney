@@ -1,10 +1,13 @@
 # ===========================================
-#  PYTHON 3 DERSLERİ - ÖZET (YAZILIM BİLİMİ)
+# 🐍 PYTHON 3 DERSLERİ - ÖZET (YAZILIM BİLİMİ)
+# ===========================================
+# Bu dosya, temel Python konularını örneklerle açıklar.
+# Hazırlayan: ChatGPT | Kaynak: Yazılım Bilimi YouTube Serisi
 # ===========================================
 
 
 # -------------------------------------------
-#   PYTHON'A GİRİŞ ve KURULUM
+# 1️⃣  PYTHON'A GİRİŞ ve KURULUM
 # -------------------------------------------
 # Python 3'ü https://python.org adresinden indirebilirsin.
 # IDLE veya VSCode gibi bir editörle çalışabilirsin.
@@ -12,7 +15,7 @@ print("Merhaba Python!")  # İlk program
 
 
 # -------------------------------------------
-#   MATEMATİK İŞLEMLERİ
+# 2️⃣  MATEMATİK İŞLEMLERİ
 # -------------------------------------------
 print(3 + 5)     # Toplama
 print(10 - 4)    # Çıkarma
@@ -27,7 +30,7 @@ print((2 + 3) * 4)  # 20
 
 
 # -------------------------------------------
-#   STRİNGLER (METİNLER)
+# 3️⃣  STRİNGLER (METİNLER)
 # -------------------------------------------
 isim = "Gamze"
 print(isim)
@@ -41,7 +44,7 @@ print(metin)
 
 
 # -------------------------------------------
-#   PRINT FONKSİYONU
+# 4️⃣  PRINT FONKSİYONU
 # -------------------------------------------
 print("Python", "Java", "C++")             # Varsayılan aralık boşluk
 print("Python", "Java", sep="-")           # Ayracı değiştir
@@ -50,7 +53,7 @@ print("Bitti!")
 
 
 # -------------------------------------------
-#   STRING İŞLEMLERİ
+# 5️⃣  STRING İŞLEMLERİ
 # -------------------------------------------
 kelime = "Python"
 print(len(kelime))      # Uzunluk
@@ -62,7 +65,7 @@ print(kelime + "3")     # Birleştirme
 
 
 # -------------------------------------------
-#   DEĞİŞKENLER
+# 6️⃣  DEĞİŞKENLER
 # -------------------------------------------
 x = 10
 y = 5
@@ -73,7 +76,7 @@ print("Merhaba", isim)
 
 
 # -------------------------------------------
-#   LİSTELER
+# 7️⃣  LİSTELER
 # -------------------------------------------
 liste = [1, 2, 3, "elma", "armut"]
 print(liste)
@@ -86,7 +89,7 @@ print(len(liste))    # Uzunluk
 
 
 # -------------------------------------------
-#    input() ve format()
+# 8️⃣  input() ve format()
 # -------------------------------------------
 # Kullanıcıdan veri alma
 # isim = input("Adınızı girin: ")
@@ -95,7 +98,7 @@ print(len(liste))    # Uzunluk
 
 
 # -------------------------------------------
-#   KOŞULLU DURUMLAR (if-elif-else)
+# 9️⃣  KOŞULLU DURUMLAR (if-elif-else)
 # -------------------------------------------
 sayi = 10
 if sayi > 0:
@@ -107,7 +110,7 @@ else:
 
 
 # -------------------------------------------
-#   KOŞULLU DURUM ÖRNEĞİ
+# 🔟  KOŞULLU DURUM ÖRNEĞİ
 # -------------------------------------------
 not_ort = 65
 if not_ort >= 50:
@@ -117,7 +120,7 @@ else:
 
 
 # -------------------------------------------
-#   WHILE DÖNGÜSÜ
+# 11️⃣  WHILE DÖNGÜSÜ
 # -------------------------------------------
 sayaç = 1
 while sayaç <= 5:
@@ -126,7 +129,7 @@ while sayaç <= 5:
 
 
 # -------------------------------------------
-#   WHILE DÖNGÜSÜ ÖRNEĞİ
+# 12️⃣  WHILE DÖNGÜSÜ ÖRNEĞİ
 # -------------------------------------------
 # Basit tahmin oyunu
 # gizli = 7
@@ -141,7 +144,7 @@ while sayaç <= 5:
 
 
 # -------------------------------------------
-#   FOR DÖNGÜSÜ
+# 13️⃣  FOR DÖNGÜSÜ
 # -------------------------------------------
 for i in range(5):  # 0,1,2,3,4
     print("i:", i)
@@ -151,7 +154,7 @@ for meyve in ["elma", "armut", "muz"]:
 
 
 # -------------------------------------------
-#   FOR DÖNGÜSÜ ÖRNEĞİ
+# 14️⃣  FOR DÖNGÜSÜ ÖRNEĞİ
 # -------------------------------------------
 toplam = 0
 for i in range(1, 6):
@@ -160,7 +163,7 @@ print("1'den 5'e kadar toplam:", toplam)
 
 
 # -------------------------------------------
-#   BREAK ve CONTINUE
+# 15️⃣  BREAK ve CONTINUE
 # -------------------------------------------
 for i in range(1, 10):
     if i == 5:
@@ -172,7 +175,7 @@ print("Döngü bitti.")
 
 
 # -------------------------------------------
-#   RANDOM MODÜLÜ
+# 16️⃣  RANDOM MODÜLÜ
 # -------------------------------------------
 import random
 rastgele_sayi = random.randint(1, 10)
