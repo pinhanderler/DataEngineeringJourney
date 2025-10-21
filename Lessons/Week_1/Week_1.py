@@ -51,7 +51,7 @@ def soru4():
         elif tahmin > dogru_sayı:
             print("Daha küçük bir sayı giriniz.")
         else:
-            print(f"Tebrikler! {deneme}. denemede doğru bildiniz 🎉")
+            print(f"Tebrikler! {deneme}. denemede doğru bildiniz ")
             break
 
 
