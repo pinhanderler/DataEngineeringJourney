@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2,
+    "ad": "Akıllı Saat",
+    "kategori": "Elektronik",
+    "fiyat": 2500.5,
+    "stok": 45,
+    "ozellikler": {
+      "marka": "Xiaomi",
+      "model": "Watch Pro"
+    }
+  },
+  {
+    "id": 4,
+    "ad": "Kablosuz Kulaklık",
+    "kategori": "Elektronik",
+    "fiyat": 800.0,
+    "stok": 20,
+    "ozellikler": {
+      "marka": "JBL"
+    }
+  }
+]
