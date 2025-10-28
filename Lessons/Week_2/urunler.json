@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "ad": "Laptop",
+      "kategori": "Elektronik",
+      "fiyat": 15000.00,
+      "stok": 75,
+      "ozellikler": {
+        "marka": "Lenovo",
+        "islemci": "i7"
+      }
+    },
+    {
+      "id": 2,
+      "ad": "Akıllı Saat",
+      "kategori": "Elektronik",
+      "fiyat": 2500.50,
+      "stok": 45,
+      "ozellikler": {
+        "marka": "Xiaomi",
+        "model": "Watch Pro"
+      }
+    },
+    {
+      "id": 3,
+      "ad": "Kahve Makinesi",
+      "kategori": "Mutfak",
+      "fiyat": 1200.00,
+      "stok": 120,
+      "ozellikler": {
+        "marka": "Arzum",
+        "renk": "Siyah"
+      }
+    },
+    {
+      "id": 4,
+      "ad": "Kablosuz Kulaklık",
+      "kategori": "Elektronik",
+      "fiyat": 800.00,
+      "stok": 20,
+      "ozellikler": {
+        "marka": "JBL"
+      }
+    },
+    {
+      "id": 5,
+      "ad": "Masa Lambası",
+      "kategori": "Ev",
+      "fiyat": 150.00,
+      "stok": 60,
+      "ozellikler": {
+        "renk": "Beyaz"
+      }
+    },
+    {
+      "id": 6,
+      "ad": "Kitap - Yabancı",
+      "kategori": "Kitap",
+      "fiyat": 45.75,
+      "stok": 150,
+      "ozellikler": {
+        "yazar": "Albert Camus"
+      }
+    }
+  ]
