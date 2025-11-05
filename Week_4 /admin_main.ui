@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>421</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>logo (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Downloads/WhiteGrey.png</pixmap>
+    </property>
+    <property name="indent">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>150</y>
+      <width>414</width>
+      <height>314</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font: 75 20pt &quot;Arial&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:600; color:#354447;&quot;&gt;Admin Preference Menu&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="minimumSize">
+        <size>
+         <width>121</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Admin Menu</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="minimumSize">
+        <size>
+         <width>121</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Mentor Interview</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="minimumSize">
+        <size>
+         <width>121</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Interviews</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="minimumSize">
+        <size>
+         <width>121</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Applications</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="minimumSize">
+        <size>
+         <width>121</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Main Menu</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="minimumSize">
+        <size>
+         <width>121</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
