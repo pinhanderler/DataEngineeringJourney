@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>839</width>
+    <height>665</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>491</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; font-weight:600; color:#334548;&quot;&gt;PROJECT APPLICATIONS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit_button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>720</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>logo (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="app_list">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>501</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Date</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Name Surname</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mail</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Telephone</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Post Code</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>State</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Status</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Economical 
+Situation</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>251</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="search_line_edit">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="placeholderText">
+        <string>Search any word...</string>
+       </property>
+       <property name="clearButtonEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="search_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Search</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="all_app_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>All Applications</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="planned_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Planned Mentor Meeting</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="unplanned_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Unscheduled Mentor Meeting</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="mentor_meeting_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Mentor Meeting</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="previous_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Previous VIT Control</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="repeated_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Repeated Registration</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="different_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Different Registration</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="filter_app_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Filter Application</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="back_button">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Back to the Menu</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
