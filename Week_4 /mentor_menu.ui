@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>150</y>
+      <width>601</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectItems</enum>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>100</number>
+    </attribute>
+    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderStretchLastSection">
+     <bool>true</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Meeting Date</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignTop</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Full Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Mentor</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Sector Information</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Column 1 </string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Column 2 </string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Participant's Workload</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Column 3</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>120</y>
+      <width>437</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::NoInsert</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToContents</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Participation in the full VIT Project is appropriate</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Referral to the first IT Training of the VIT Project is appropriate</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Referral to the English Training of the VIT Project is appropriate</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Referral within the VIT Project Framework is appropriate</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Direct Coaching and Job Placement is appropriate</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Participation in the next VIT Project would be more appropriate</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Should be referred to another sector</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Other</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>261</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>logo (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>81</x>
+      <y>1</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>431</width>
+      <height>111</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../logo_720.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>60</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 24pt &quot;Times New Roman&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;MENTOR MENU&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>156</y>
+      <width>143</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+color:rgb(0, 0, 0);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Search</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="minimumSize">
+        <size>
+         <width>141</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>141</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>All Applications</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="minimumSize">
+        <size>
+         <width>141</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>141</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Back Menu</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="minimumSize">
+        <size>
+         <width>141</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>141</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border: 2px solid rgb(171, 171, 171);
+}
+QPushButton:hover {
+    background-color:rgb(255, 226, 229);
+}
+QPushButton:pressed {
+    background-color: rgb(218, 30, 60);
+	color: rgb(255, 255, 255)
+}</string>
+       </property>
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
