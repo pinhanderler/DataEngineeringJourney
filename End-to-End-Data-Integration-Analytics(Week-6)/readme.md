@@ -123,6 +123,6 @@ Migrate, transform, and analyze the Sakila dataset across multiple platforms, ga
 
 ---
 
-## 🧑‍🏫 Instructor Note
+## 🧑‍🏫 Note
 
 This project simulates a real-world data engineering workflow. Document all steps carefully, analyze data flow, and reflect on differences between relational, cloud, and NoSQL systems.
