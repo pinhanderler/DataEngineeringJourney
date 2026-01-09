@@ -1,0 +1,20 @@
+{
+  "customer_id": 1,
+  "first_name": "MARY",
+  "last_name": "SMITH",
+  "email": "MARY.SMITH@sakilacustomer.org",
+  "rentals": [
+    {
+      "rental_id": 1,
+      "rental_date": "2005-05-24",
+      "return_date": "2005-05-26"
+    }
+  ],
+  "payments": [
+    {
+      "payment_id": 1,
+      "amount": 2.99,
+      "payment_date": "2005-05-25"
+    }
+  ]
+}
