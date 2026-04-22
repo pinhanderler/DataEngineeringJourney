@@ -2,7 +2,6 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,50:16213e,100:0f3460&height=130&section=header" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=e94560&center=true&vCenter=true&width=720&lines=🗄️+SQL+Tutoring+Notes;TechProEd+Summer+2020;Türkçe+%2F+English+%F0%9F%87%B9%F0%9F%87%B7+%F0%9F%87%AC%F0%9F%87%A7" alt="Typing SVG" />
 
 <br/>
 
