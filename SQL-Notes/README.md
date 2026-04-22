@@ -22,9 +22,6 @@
 
 # 🗄️ SQL Ders Notları
 
-### TechProEd Summer 2020 — 9 Günlük SQL Kursu
-
-Bu repository, **TechProEd** tarafından düzenlenen SQL kursunda işlenen konuların konu anlatımlarını, kod örneklerini ve alıştırmalarını içermektedir.
 
 Oracle PL/SQL syntax'ı kullanılmıştır. Temel SQL konseptleri tüm veritabanı sistemleri için geçerlidir.
 
@@ -73,10 +70,6 @@ Gün 9: 🎉 Genel Tekrar
 ## 🇬🇧 English
 
 # 🗄️ SQL Lecture Notes
-
-### TechProEd Summer 2020 — 9-Day SQL Course
-
-This repository contains topic explanations, code examples, and practice exercises from the SQL course organized by **TechProEd**.
 
 Oracle PL/SQL syntax is used. Core SQL concepts apply to all database systems.
 
